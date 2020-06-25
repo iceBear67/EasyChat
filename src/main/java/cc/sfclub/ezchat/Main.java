@@ -6,8 +6,8 @@ import org.slf4j.LoggerFactory;
 
 public class Main {
     @Getter
-    private static final Logger logger= LoggerFactory.getLogger(Main.class);
+    private static final Logger LOGGER= LoggerFactory.getLogger(Main.class);
     public static void main(String[] args){
-        logger.info("EasyChat Starting..");
+        LOGGER.info("EasyChat Starting..");
     }
 }
