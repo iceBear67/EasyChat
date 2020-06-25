@@ -1,6 +1,11 @@
 # EasyChat
 A simple chat server
-## Install
-1. Clone this repo
-1. Build by maven
-1. Run the server
+
+# Install
+## Environment
+Java, Git
+## Build
+Run this:
+```bash
+git clone https://github.com/saltedfishclub/EasyChat && cd EasyChat && ./gradlew shadowjar && cd build/libs && mv ./*.jar ../../../ && cd ../../.. && ls
+```
